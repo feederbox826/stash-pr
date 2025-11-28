@@ -1,6 +1,9 @@
-# stash-s6 PR
+# stash PR
 
-stash-s6 custom PR builds
+stash custom PR builds
 
-branch format excludes the repo name
-https://github.com/stashapp/stash/pull/6012 for example turns into `lightbox-galleries`
+tags are derived from branch names with the following prefixes
+[none]: based on stashapp/stash
+s6-hwaccel: based on stash-s6:hwaccel
+s6: based on stash-s6:alpine
+nerethos: based on nerethos/stash
